@@ -6,8 +6,7 @@ namespace PolymorphismUppg.Entities
 {
     internal abstract class GeometryAbst 
     {
-
-
+        //Abtrakt metod. Deklareras i child-klasserna.
         abstract public double Area();
     }
 }
