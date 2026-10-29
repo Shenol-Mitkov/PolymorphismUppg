@@ -12,6 +12,7 @@ namespace PolymorphismUppg.Entities
         {
             Length = 5.5;
         }
+        // Implementerar den abstrakta metoden Area() från GeometryAbst-klassen
         public override double Area()
         {
             return Math.Pow(Length, 2);

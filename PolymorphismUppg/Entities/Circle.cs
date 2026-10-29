@@ -13,6 +13,7 @@ namespace PolymorphismUppg.Entities
         {
             Radius = 4.0;
         }
+        // Implementerar den abstrakta metoden Area() från GeometryAbst-klassen
         public override double Area()
         {
             return Math.PI * Radius * Radius;
